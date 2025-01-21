@@ -58,3 +58,5 @@
 - Für fortgeschrittene Teilnehmer: Experimentiere mit verschiedenen Breakpoints in den Media-Queries und Farben für die Projekte.
 
 Viel Spaß beim Experimentieren! 😊
+
+Das ist ein Test
