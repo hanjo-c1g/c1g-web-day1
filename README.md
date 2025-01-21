@@ -53,8 +53,9 @@
    ```
 
 ## Hinweise
-- Nutze einen Texteditor oder eine IDE wie Visual Studio Code, um die Dateien zu bearbeiten.
+- Check dir das Repository lokal aus, erstelle dir gern vorher einen fork auf Github, dann kannst du deine Lösung in einem Pull Request präsentieren und Feedback bekommen
+- Nutze einen Texteditor oder eine IDE wie Visual Studio Code, um die Dateien zu bearbeiten. Alternativ kannst du auch den Editor von Github im Web verwenden und veröffentliche die Seite per Github Pages.
 - Öffne `index.html` im Browser, um die Änderungen live zu sehen.
-- Für fortgeschrittene Teilnehmer: Experimentiere mit verschiedenen Breakpoints in den Media-Queries und Farben für die Projekte.
+
 
 Viel Spaß beim Experimentieren! 😊
