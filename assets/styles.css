@@ -17,11 +17,6 @@ header {
 main {
   padding: 20px;
 }
-.projekte {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
 .projekt {
   text-align: center;
   padding: 10px;
@@ -32,6 +27,21 @@ main {
 }
 .projekt:nth-child(even) {
   background-color: #fff4cc;
+}
+@media (max-width: 768px) {
+  .projekte {
+    display: block;
+  }
+  .projekt {
+    margin: 20px;
+  }
+}
+@media (min-width: 769px) {
+  .projekte {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
 }
 footer {
   background-color: #333;
