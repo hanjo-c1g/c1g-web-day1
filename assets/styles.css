@@ -3,15 +3,48 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: grey;
   color: #333;
 }
 header {
+  font-family: Geneva, sans-serif;
   background-color: #6200ea;
-  color: white;
+  color: black;
   padding: 20px;
   text-align: center;
 }
 main {
   padding: 20px;
+}
+.projekt:nth-child(2) {
+    background-color: blue;
+    color: white; /* Textfarbe für bessere Lesbarkeit */
+    padding: 20px;
+    margin: 10px;
+}
+
+.projekt:nth-child(3) {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.projekt:nth-child(4) {
+    background-color: yellow;
+    color: black; /* Schwarze Textfarbe für Kontrast */
+    padding: 20px;
+    margin: 10px;
+}
+@media (max-width: 768px) {
+  .projekte {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .projekte {
+    display: flex;
+    justify-content: space-between;
+  }
 }
